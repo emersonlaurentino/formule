@@ -43,12 +43,16 @@ npm install formule
 <script src="https://unpkg.com/formule/dist/formule.umd.js"></script>
 ```
 
-## API
+# API
 
-### Constants
+## Constants
 
-#### e
+### e
 The base of the natural logarithm.
+
+<b>Types</b>
+
+`number`
 
 <b>Syntax</b>
 
@@ -59,12 +63,16 @@ e
 <b>Examples</b>
 
 ```js
-e = 2.718281828459045;
+e // 2.718281828459045;
 ```
 
-#### pi
+### pi
 
 The ratio of a circle's circumference to its diameter.
+
+<b>Types</b>
+
+`number`
 
 <b>Syntax</b>
 
@@ -75,14 +83,19 @@ pi
 <b>Examples</b>
 
 ```js
-pi = 3.141592653589793;
+pi // 3.141592653589793;
 ```
 
 ### Functions
 
-#### concat
+### concat
 
 Concatenates its arguments and returns the result.
+
+<b>Types</b>
+
+<b>Input:</b> `any`<br>
+<b>Output:</b> `string`
 
 <b>Syntax</b>
 
@@ -93,12 +106,17 @@ concat(...text)
 <b>Examples</b>
 
 ```js
-concat('Hello', 'World') = "HelloWorld"
+concat('Hello', 'World') // "HelloWorld"
 ```
 
-#### join
+### join
 
 Inserts the first argument between the rest and returns their concatenation.
+
+<b>Types</b>
+
+<b>Input:</b> `any`<br>
+<b>Output:</b> `string`
 
 <b>Syntax</b>
 
@@ -109,7 +127,7 @@ join(...text)
 <b>Examples</b>
 
 ```js
-join('-', 1, 2, 3) = "1-2-3"
+join('-', 1, 2, 3) // "1-2-3"
 ```
 
 ## License
@@ -119,5 +137,5 @@ MIT
 ---
 
 > [elaurent.org](http://elaurent.org) &nbsp;&middot;&nbsp;
-> GitHub [@emersonlaurentino](https://github.com/emersonlaurentino) &nbsp;&middot;&nbsp;
+> GitHub [emersonlaurentino](https://github.com/emersonlaurentino) &nbsp;&middot;&nbsp;
 > Twitter [@elaurent\_](https://twitter.com/elaurent_)
