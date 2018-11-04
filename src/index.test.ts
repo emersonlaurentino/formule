@@ -1,4 +1,4 @@
-import { e, pi } from '.';
+import { concat, e, pi } from '.';
 
 describe('CONSTANTS', () => {
   test('e', () => {
@@ -6,5 +6,11 @@ describe('CONSTANTS', () => {
   });
   test('pi', () => {
     expect(pi).toBe(Math.PI);
+  });
+});
+
+describe('FUNCTIONS', () => {
+  test('concat', () => {
+    expect(concat('text', 1, 'example')).toBe('text1example');
   });
 });
