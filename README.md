@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/npm/l/formule.svg" />
 </p>
 
-<h4 align="left">JavaScript implementation of formulas for humans.</h4>
+JavaScript implementation of formulas for humans.
 
 ## Contents
 
