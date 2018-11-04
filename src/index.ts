@@ -5,4 +5,4 @@ export const pi: number = Math.PI;
 export const e: number = Math.E;
 
 // Concatenates its arguments and returns the result.
-export const concat: (...args: any) => string = (...args) => ''.concat(...args);
+export const concat: (...args: any) => string = (...args) => args.join('');
