@@ -94,8 +94,8 @@ Concatenates its arguments and returns the result.
 
 <b>Types</b>
 
-<b>Input:</b> `any`<br>
-<b>Output:</b> `string`
+Input: `any`<br>
+Output: `string`
 
 <b>Syntax</b>
 
@@ -115,8 +115,8 @@ Inserts the first argument between the rest and returns their concatenation.
 
 <b>Types</b>
 
-<b>Input:</b> `any`<br>
-<b>Output:</b> `string`
+Input: `any`<br>
+Output: `string`
 
 <b>Syntax</b>
 
