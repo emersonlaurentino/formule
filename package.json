@@ -10,7 +10,6 @@
   "source": "src/index.ts",
   "scripts": {
     "build": "microbundle",
-    "lint": "tslint",
     "test": "jest"
   },
   "devDependencies": {
