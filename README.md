@@ -21,6 +21,7 @@ JavaScript implementation of formulas for humans.
   - [Functions](#functions)
     - [concat](#concat)
     - [join](#join)
+    - [now](#now)
     - [toNumber](#toNumber)
 - [License](#license)
 
@@ -129,6 +130,26 @@ join(...text)
 
 ```js
 join('-', 1, 2, 3) // 1-2-3
+```
+
+### now
+
+Returns the current date and time.
+
+<b>Types</b>
+
+`string`
+
+<b>Syntax</b>
+
+```js
+now()
+```
+
+<b>Examples</b>
+
+```js
+now() // Nov 6, 1999
 ```
 
 ### toNumber
