@@ -1,0 +1,14 @@
+{
+  "exclude": ["node_modules", "dist", "**/*.test.*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "es6",
+    "declaration": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "esModuleInterop": true
+  }
+}
