@@ -63,7 +63,7 @@ e
 <b>Examples</b>
 
 ```js
-e // 2.718281828459045;
+e // 2.718281828459045
 ```
 
 ### pi
@@ -83,7 +83,7 @@ pi
 <b>Examples</b>
 
 ```js
-pi // 3.141592653589793;
+pi // 3.141592653589793
 ```
 
 ### Functions
@@ -106,7 +106,7 @@ concat(...text)
 <b>Examples</b>
 
 ```js
-concat('Hello', 'World') // "HelloWorld"
+concat('Hello', 'World') // HelloWorld
 ```
 
 ### join
@@ -127,7 +127,7 @@ join(...text)
 <b>Examples</b>
 
 ```js
-join('-', 1, 2, 3) // "1-2-3"
+join('-', 1, 2, 3) // 1-2-3
 ```
 
 ## License
