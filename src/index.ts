@@ -13,3 +13,8 @@ export const join: (...args: any) => string = (...args) => {
   args.shift();
   return args.join(value);
 };
+
+// Parses a number from string, boolean or date.
+export const toNumber: (
+  input: string | boolean | number | Date
+) => number = input => Number(input);

@@ -1,4 +1,4 @@
-import { concat, e, join, pi } from '.';
+import { concat, e, join, pi, toNumber } from '.';
 
 describe('CONSTANTS', () => {
   test('e', () => {
@@ -15,5 +15,8 @@ describe('FUNCTIONS', () => {
   });
   test('join', () => {
     expect(join('/', 'text', 1, 'example')).toBe('text/1/example');
+  });
+  test('toNumber', () => {
+    expect(toNumber(false)).toBe(0);
   });
 });

@@ -21,6 +21,7 @@ JavaScript implementation of formulas for humans.
   - [Functions](#functions)
     - [concat](#concat)
     - [join](#join)
+    - [toNumber](#toNumber)
 - [License](#license)
 
 ## Installing
@@ -128,6 +129,27 @@ join(...text)
 
 ```js
 join('-', 1, 2, 3) // 1-2-3
+```
+
+### toNumber
+
+Parses a number from string, boolean or date.
+
+<b>Types</b>
+
+Input: `string` `boolean` `number` `Date`<br>
+Output: `number`
+
+<b>Syntax</b>
+
+```js
+toNumber(text)
+```
+
+<b>Examples</b>
+
+```js
+toNumber(false) // 0
 ```
 
 ## License
