@@ -1,4 +1,21 @@
-export const MONTHS_NAMES: string[] = [
+export const DAY_NAME: string[] = [
+  'Sun',
+  'Mon',
+  'Tue',
+  'Wed',
+  'Thu',
+  'Fri',
+  'Sat',
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+];
+
+export const MONTH_NAME: string[] = [
   'Jan',
   'Feb',
   'Mar',
@@ -11,4 +28,16 @@ export const MONTHS_NAMES: string[] = [
   'Oct',
   'Nov',
   'Dec',
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
 ];

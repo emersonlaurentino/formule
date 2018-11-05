@@ -1,5 +1,5 @@
-import { concat, e, join, now, pi, toNumber } from '.';
-import { MONTHS_NAMES } from './constants';
+import { concat, e, formatDate, join, now, pi, toNumber } from '.';
+import { MONTH_NAME } from './constants';
 
 describe('CONSTANTS', () => {
   test('e', () => {
@@ -14,13 +14,16 @@ describe('FUNCTIONS', () => {
   test('concat', () => {
     expect(concat('text', 1, 'example')).toBe('text1example');
   });
+  test('formatDate', () => {
+    expect(formatDate(now(), 'MMMM DDDYYYY, HH:mm')).toBe('text1example');
+  });
   test('join', () => {
     expect(join('/', 'text', 1, 'example')).toBe('text/1/example');
   });
   test('now', () => {
     const date = new Date();
     const day = date.getDate();
-    const month = MONTHS_NAMES[date.getMonth()];
+    const month = MONTH_NAME[date.getMonth()];
     const year = date.getFullYear();
 
     expect(now()).toBe(`${month} ${day}, ${year}`);
