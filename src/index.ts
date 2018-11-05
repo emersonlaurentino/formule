@@ -13,7 +13,7 @@ export const e: number = Math.E;
 /** Concatenates its arguments and returns the result. */
 export const concat: (...input: any) => string = (...input) => input.join('');
 
-/** Format a date using the Moment standard time format string. */
+/** Format a date using format string. */
 export const formatDate: (input: string, format: string) => string = (
   input,
   format

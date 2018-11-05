@@ -20,6 +20,7 @@ JavaScript implementation of formulas for humans.
     - [pi](#pi)
   - [Functions](#functions)
     - [concat](#concat)
+    - [formatDate](#formatDate)
     - [join](#join)
     - [now](#now)
     - [toNumber](#toNumber)
@@ -109,6 +110,27 @@ concat(...text)
 
 ```js
 concat('Hello', 'World') // HelloWorld
+```
+
+### formatDate
+
+Format a date using format string.
+
+<b>Types</b>
+
+Input: `string`<br>
+Output: `string`
+
+<b>Syntax</b>
+
+```js
+formatDate(date, format)
+```
+
+<b>Examples</b>
+
+```js
+formatDate(now(), 'YYYY-MM-DD') // 1999-11-06
 ```
 
 ### join
